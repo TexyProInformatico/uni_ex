@@ -2,9 +2,9 @@
 #define EXTRACT_H
 
 #include <iostream>
-#include <cstring>
 using namespace std;
 
-char * estrai(char *);
+char * estrai(char *, int, int, int);
+char * estrai_ricorsiva(char *, char *, int, int, int);
 
 #endif
